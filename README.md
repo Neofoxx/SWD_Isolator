@@ -17,7 +17,11 @@ It solves a very "sparky" situation, of connecting a mains earthed computer, to 
 The chip has 2x open-drain bidirectional pins, making it suitable for a range of protocols. SWD, I2C and UART have all been tested.
 There are also two unidirectional pins (one to each side), but only one is used (as RESET) in programming.
 
-The schematic calls for 3k resistors on bi-directional lines. In practice 820R resistors were used without issues, with good rising edges & high (couple of MHz) frequencies.
+The schematic calls for 3k resistors on bi-directional lines. In practice 820R resistors were used without issues, with good rising edges & high (couple of MHz) frequencies
+
+The headers are aligned to a 0.1" grid - 0.9" from pin to pin.
+Headers can be soldered straight-through, or can be laid flat and soldered onto the exposed traces, making for a nice in-between module.
+
 
 ## Files
 * The Gerber files are in the HW/Gerbers directory
